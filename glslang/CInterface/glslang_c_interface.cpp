@@ -30,14 +30,14 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 **/
 
-#include "glslang/Include/glslang_c_interface.h"
+#include "../../glslang/Include/glslang_c_interface.h"
 
-#include "StandAlone/DirStackFileIncluder.h"
-#include "StandAlone/ResourceLimits.h"
-#include "glslang/Include/ShHandle.h"
+#include "../../StandAlone/DirStackFileIncluder.h"
+#include "../../StandAlone/ResourceLimits.h"
+#include "../../glslang/Include/ShHandle.h"
 
-#include "glslang/Include/ResourceLimits.h"
-#include "glslang/MachineIndependent/Versions.h"
+#include "../../glslang/Include/ResourceLimits.h"
+#include "../../glslang/MachineIndependent/Versions.h"
 
 static_assert(int(GLSLANG_STAGE_COUNT) == EShLangCount, "");
 static_assert(int(GLSLANG_STAGE_MASK_COUNT) == EShLanguageMaskCount, "");
